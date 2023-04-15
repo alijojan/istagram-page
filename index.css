@@ -1,0 +1,156 @@
+*{
+    box-sizing: border-box;
+    direction: ltr;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    margin: 0px;
+    font-size: 16px;
+}
+
+
+.container{
+    width: 100%;
+}
+
+.phone{
+    width: 500px;
+    min-height: 100vh;
+    text-align: center;
+    margin:0px auto;
+    background-color: rgba(0, 0, 0, .05);
+}
+
+.phone footer{
+    width: 500px;
+    background-color: white;
+    position: fixed;
+    bottom: 0px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.phone footer img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+
+
+
+.head-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.head-nav .nav, .head-nav .nav i{
+    padding: 10px;
+}
+
+.profile{
+    margin: 20px;
+}
+
+.top{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.top img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.number{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle span, .story{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;                                                    
+}
+
+.middle span p{
+    margin: 1px;                                                  
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+.bottom span{
+    background-color:rgba(0, 0, 0, .1) ;
+    padding: 5px 60px;
+    border-radius: 10px;
+}
+
+.story p{
+    margin: 1px 20px;
+}
+
+.story-pic{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.new{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.new i{
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 25px;
+}
+
+.story-pic span{
+    background-color:rgba(0, 0, 0, .1) ;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+
+.post-btn{
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-btn i{
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+}
+
+#tiked{
+    border-bottom: 1.5px solid black;
+}
+
+.post{
+    margin-top: 2px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1px;
+}
+.post img{
+    width: 100%;
+    height: 100%;
+}
